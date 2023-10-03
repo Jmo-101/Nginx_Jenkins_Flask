@@ -31,6 +31,17 @@ sudo apt-get install fontconfig openjdk-11-jre
 sudo apt-get install Jenkins
 ```
 
+# Github:
+
+I initially used `git clone` to clone a repository into the instance. From there, I moved the files using `mv` in the command line to move the files I needed into the repository I made. 
+
+Afterwards, I needed to make a second testing branch using `git checkout -b testing_branch`. From there, I made the necessary changes to the Jenkins file and merged it back to the main branch using `git merge`. 
+
+Once the two branches were merged, I used the command `git commit` to commit any changes made to the existing files. I used `git status` to check the status of the branch. Once I was satisfied with the changes, I used `git push` to push the files into the local repository.
+
+
+<img width="250" alt="Screenshot 2023-10-02 at 12 01 35 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/c61b5db4-1437-403c-93c5-af354037b962">
+<img width="250" alt="Screenshot 2023-10-02 at 11 55 00 AM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/0bc5607e-dea9-4b4e-80c6-ebceeb04537b">
 
 ## CloudWatch:
 
