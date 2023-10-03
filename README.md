@@ -31,7 +31,7 @@ sudo apt-get install fontconfig openjdk-11-jre
 sudo apt-get install Jenkins
 ```
 
-# Github:
+# Git:
 
 I initially used `git clone` to clone a repository into the instance. From there, I moved the files using `mv` in the command line to move the files I needed into the repository I made. 
 
