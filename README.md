@@ -16,6 +16,8 @@ We manually created an EC2 instance on AWS with an instance type of T2.medium. W
 
 <img width="250" alt="Screenshot 2023-10-02 at 12 44 07 PM" src="https://github.com/Jmo-101/Nginx_Jenkins_Flask/assets/138607757/7be3bd2c-d304-4cac-b40a-49505f29c184">
 
+<img width="250" alt="Screenshot 2023-10-02 at 9 04 27 PM" src="https://github.com/Jmo-101/Nginx_Jenkins_Flask/assets/138607757/7fc7cdc8-a863-499f-b615-ed4665df29de">
+
 
 ## CloudWatch:
 
