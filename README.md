@@ -4,7 +4,7 @@
 <h1 align="center">Nginx_Jenkins_Flask<h1> 
 
 ## Planning:
-
+<img width="500" alt="Screenshot 2023-10-03 at 1 59 35 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/4d165a0f-1660-4c0e-b468-0c4c0fa8f994">
 
 # About:
 
