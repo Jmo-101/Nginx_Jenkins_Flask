@@ -47,3 +47,9 @@ Once the two branches were merged, I used the command `git commit` to commit any
 ## CloudWatch:
 
 I installed a CloudWatch agent into my application in order to monitor the metrics used such as CPU and memory. I installed the agent using a series of commands in the command line. Once that was installed I had to configure the agent in order to track the metrics I wanted it to track.
+
+<img width="400" alt="Screenshot 2023-10-02 at 12 58 53 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/cc7d8a96-7323-403b-8b19-38b06b162c24">
+<img width="300" alt="Screenshot 2023-10-02 at 1 01 51 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/7719dd89-ee61-4245-a6e1-2cb87c2ff3fb">
+<img width="300" alt="Screenshot 2023-10-02 at 1 02 31 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/8da03b1e-17be-469a-8a73-c5af5d511310">
+<img width="400" alt="Screenshot 2023-10-02 at 1 31 37 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/29034810-629a-487a-afd9-1001d32791b7">
+<img width="300" alt="Screenshot 2023-10-02 at 1 14 26 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/670b9b1b-4b3c-4ed1-92bb-93815b0a87db">
