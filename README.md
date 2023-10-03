@@ -41,6 +41,7 @@ Once the two branches were merged, I used the command `git commit` to commit any
 
 
 <img width="250" alt="Screenshot 2023-10-02 at 12 01 35 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/c61b5db4-1437-403c-93c5-af354037b962">
+<img width="250" alt="Screenshot 2023-10-02 at 1 48 10 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/1d05c7a3-2ab3-4986-ae1d-84dcdca73b16">
 <img width="250" alt="Screenshot 2023-10-02 at 11 55 00 AM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/0bc5607e-dea9-4b4e-80c6-ebceeb04537b">
 
 ## CloudWatch:
