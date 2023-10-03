@@ -3,6 +3,9 @@
 </p>
 <h1 align="center">Nginx_Jenkins_Flask<h1> 
 
+## Planning:
+
+
 # About:
 
 This project showcases the use of Jenkins, nginx, while also using git commands in the command line in order to push edited files to our repositories. Also showcased was the use of AWS CloudWatch in order to monitor the metrics of our application.
