@@ -18,18 +18,6 @@ We manually created an EC2 instance on AWS with an instance type of T2.medium. W
 
 <img width="250" alt="Screenshot 2023-10-02 at 9 04 27 PM" src="https://github.com/Jmo-101/Nginx_Jenkins_Flask/assets/138607757/7fc7cdc8-a863-499f-b615-ed4665df29de">
 
-```bash
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-    /etc/apt/sources.list.d/jenkins.list > /dev/null
-
-sudo apt-get update
-sudo apt-get install fontconfig openjdk-11-jre
-sudo apt-get install Jenkins
-```
 
 # Git:
 
@@ -62,6 +50,19 @@ Once CloudWatch was installed in the instance I traversed over to AWS to monitor
 # Jenkins:
 
 Once the GitHub repository was set up, I moved on to initializing Jenkins. Using commands in the command line, I set up Jenkins to build a multibranch pipeline for my application. During the Jenkins setup, I also installed the "Pipeline Keep Running Step" plugin
+
+```bash
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+sudo apt-get update
+sudo apt-get install fontconfig openjdk-11-jre
+sudo apt-get install Jenkins
+```
 
 <img width="600" alt="Screenshot 2023-10-02 at 12 18 47 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/bad4ac00-d11e-4c93-811b-3a0a839eb856">
 
