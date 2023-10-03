@@ -3,24 +3,14 @@
 </p>
 <h1 align="center">C4_deployment-4<h1> 
 
-Demonstrate your ability to deploy an application to an EC2 instance.
+# About:
 
-- Create a separate GitHub repository for this application 
+This project showcases the use of Jenkins, nginx, while also using git commands in the command line in order to push edited files to our repositories. Also showcased was the use of AWS CloudWatch in order to monitor the metrics of our application.
 
-- Download the files from this repository and upload them to your newly created repository 
+## EC2:
 
-- Be sure to follow the deployment instructions from this repository  
+We manually created an EC2 instance on AWS with an instance type of T2.medium. We also adjusted our security groups and added four security groups to our instance, which are going to be used later on. The next step in the EC2 instance was to install Jenkins, as well as a python3 virtual environment (`python3.10-venv`), `python3-pip`, and `nginx`. Once nginx was installed we had to edit the configuration file and change our application location port in order for port 8000 to be used on it.
 
-- Document your progress in a .md file in your repository. Also, document any issues you may run into and what you did to fix them.
+## CloudWatch:
 
-- Make sure your documentation includes these sections:
-  - Purpose
-  - Issues
-  - Steps
-  - System Diagram
-  - Optimization (How would make this deployment more efficient, if you utilize ChatGPT make sure to explain what your prompt was.)
-
-- Lastly, save your documentation and diagram into your repository. Submit your repository link to the LMS
-
-## Deployment instructions Link:
--  Link to instructions: https://github.com/kura-labs-org/c4_deployment-4/blob/main/Deployment-instructions.md
+I installed a CloudWatch agent into my application in order to monitor the metrics used such as CPU and memory. I installed the agent using a series of commands in the command line. Once that was installed I had to configure the agent in order to track the metrics I wanted it to track.
