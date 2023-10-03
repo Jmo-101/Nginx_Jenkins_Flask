@@ -18,6 +18,19 @@ We manually created an EC2 instance on AWS with an instance type of T2.medium. W
 
 <img width="250" alt="Screenshot 2023-10-02 at 9 04 27 PM" src="https://github.com/Jmo-101/Nginx_Jenkins_Flask/assets/138607757/7fc7cdc8-a863-499f-b615-ed4665df29de">
 
+```bash
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+sudo apt-get update
+sudo apt-get install fontconfig openjdk-11-jre
+sudo apt-get install Jenkins
+```
+
 
 ## CloudWatch:
 
