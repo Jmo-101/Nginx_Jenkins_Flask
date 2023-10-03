@@ -57,3 +57,8 @@ I installed a CloudWatch agent into my application in order to monitor the metri
 # Jenkins:
 
 Once the GitHub repository was set up, I moved on to initializing Jenkins. Using commands in the command line, I set up Jenkins to build a multibranch pipeline for my application. During the Jenkins setup, I also installed the "Pipeline Keep Running Step" plugin
+
+<img width="600" alt="Screenshot 2023-10-02 at 12 18 47 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/bad4ac00-d11e-4c93-811b-3a0a839eb856">
+
+<img width="600" alt="Screenshot 2023-10-02 at 1 55 03 PM" src="https://github.com/Jmo-101/Web_Hook_Flask/assets/138607757/e6e5d3fb-d7ab-4d2b-9b31-e4c3f90a333d">
+
