@@ -6,6 +6,7 @@ from werkzeug.utils import secure_filename
 
 application = app = Flask(__name__)
 app.secret_key = 'h432hi5ohi3h5i5hi3o2hi'
+logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 @app.route('/')
 def home():
